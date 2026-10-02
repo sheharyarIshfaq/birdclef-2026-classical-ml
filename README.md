@@ -51,6 +51,10 @@ Since this was a university project, **neural networks were not allowed**. This 
 - **Four metadata features lifted ROC-AUC from 0.893 to 0.922** (location, recording rating, source), more than any change to the audio features
 - **Significant domain shift** between clean training audio and noisy field soundscapes (25% accuracy vs 9% hit rate)
 
+## Report
+
+The full write-up (method, experiments, ablations and error analysis) is in [`report/report.pdf`](report/report.pdf).
+
 ## Project structure
 
 ```
@@ -64,6 +68,9 @@ project/
 │   ├── 06_tuning_and_analysis.ipynb  # Tuning, ablation, error analysis
 │   ├── 07_metadata.ipynb             # Adding non-audio metadata features
 │   └── helpers.py                    # Feature extraction functions
+├── report/
+│   ├── report.pdf                    # Full project report
+│   └── report.tex
 ├── figures/                          # All plots and results
 ├── requirements.txt
 └── README.md
