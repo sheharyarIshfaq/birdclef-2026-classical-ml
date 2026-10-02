@@ -1,0 +1,12 @@
+{
+  "model": "RandomForest(100 trees, default)",
+  "features": "SET_C (60 features, mean+std)",
+  "val_accuracy": 0.2159,
+  "val_macro_f1": 0.1764,
+  "val_macro_roc_auc": 0.7438,
+  "soundscape_top1_hit_rate": 0.023,
+  "train_time_seconds": 8.3,
+  "n_train": 28436,
+  "n_val": 7109,
+  "n_classes": 206
+}

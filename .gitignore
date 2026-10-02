@@ -1,0 +1,9 @@
+birdclef-2026/
+features/
+venv/
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+.ipynb_checkpoints/
+*.zip

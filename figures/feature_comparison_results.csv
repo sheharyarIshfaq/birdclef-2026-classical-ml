@@ -1,0 +1,5 @@
+name,n_features,accuracy,macro_f1,macro_roc_auc,time
+SET_A (MFCCs),26,0.208,0.1605,0.7467,5.6957
+SET_B (+spectral),36,0.2093,0.1687,0.7546,6.4128
+SET_C (+chroma),60,0.2159,0.1764,0.7438,7.645
+SET_D (extended),180,0.2498,0.203,0.7719,13.9229
